@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 
 function Navbar() {
   return (
-    <div className="flex justify-between py-2 text-sm font-thin border-b-2 px-36">
+    <div className="justify-between hidden py-2 text-sm font-thin border-b-2 xl:flex px-36">
       <div>
         <NavLink className="navbar-item" activeClassName="is-active" to="/">
           Welcome to Worldwide Electronics Store
