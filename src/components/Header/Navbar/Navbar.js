@@ -6,7 +6,7 @@ import RightNav from "./RightNav";
 
 function Navbar() {
   return (
-    <div className="justify-between hidden py-2 text-sm font-thin border-b-2 xl:flex px-36">
+    <div className="justify-between hidden py-2 text-xs font-normal border-b xl:flex px-36">
       <div>
         <NavLink className="navbar-item" activeClassName="is-active" to="/">
           Welcome to Worldwide Electronics Store
