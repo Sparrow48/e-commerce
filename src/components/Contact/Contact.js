@@ -5,7 +5,7 @@ import BottomMenu from "./BottomMenu";
 const Contact = () => {
   return (
     <div className="bg-gray-100">
-      <div className="flex justify-between lg:max-w-4xl xl:max-w-6xl 2xl:max-w-8xl md:mx-auto">
+      <div className="flex xl:space-x-40 lg:space-x-20 lg:max-w-4.5xl xl:max-w-6xl 2xl:max-w-8xl md:mx-auto">
         <div className="py-12">
           <h1 className="pb-3 text-4xl font-bold">
             electro<span className="text-5xl text-yellow-400 ">.</span>
@@ -78,7 +78,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="py-10">
           <BottomMenu />
         </div>
       </div>
