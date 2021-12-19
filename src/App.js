@@ -1,10 +1,10 @@
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Header from "./components/Header/Header";
 import Layout from "./Layout/Layout";
 import Home from "./views/Home";
 
 import "./App.css";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Layout>
           <Home />
+          <Contact />
         </Layout>
       </Router>
     </div>

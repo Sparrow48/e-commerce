@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="justify-between hidden py-2 text-xs font-normal border-b xl:flex px-36">
       <div>
-        <NavLink className="navbar-item" activeClassName="is-active" to="/">
+        <NavLink className="navbar-item" to="/">
           Welcome to Worldwide Electronics Store
         </NavLink>
       </div>
@@ -30,11 +30,7 @@ function Navbar() {
           title={"My Account"}
         />
 
-        <NavLink
-          className="px-2 navbar-item"
-          activeClassName="is-active"
-          to="/"
-        >
+        <NavLink className="px-2 navbar-item" to="/">
           Switch to RTL
         </NavLink>
       </div>
