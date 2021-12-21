@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         inter: "'Inter', sans-serif",
       },
+      maxWidth: {
+        "8xl": "85rem",
+        "4.5xl": "60rem",
+      },
     },
   },
   variants: {
